@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.5rem !important;
+}
+
+nav{
+    background-color: white;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 5px rgb(173, 230, 201);
+    position: fixed;
+    width: 100%;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+header > h3{
+    font-weight: bold;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.nav-links > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.nav-links > a:hover {
+    color: rgb(0, 110, 255);
+}
+
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+}
+.home-content > img{
+    height: 500px;
+}
+.home-desc{
+    width: 50%;
+}
+.home-desc > h3{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    color: rgb(0, 110, 255);
+}
+
+.home-desc > p{
+    margin-bottom: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.home-desc > a >  button{
+    padding: .7rem 2rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 6px;
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+.home-desc > a > button:hover{
+    background-color: rgb(0, 110, 255);
+    border: 1px solid rgb(0, 110, 255);
+    color: white;
+}
+
+
+/************* About Styles **************/
+
+.about-content{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+    height: 90vh;
+    padding-top: 10rem !important;
+
+}
+.about-content > h3{
+    color: rgb(0, 110, 255);
+    font-size: 4rem;
+}
+
+.about-desc{
+    width: 50%;
+}
+
+.about-desc > h3{
+    color: rgb(0, 110, 255);
+    margin-bottom: 1rem;
+}
+
+.about-desc > p{
+    margin-bottom: 1rem;
+}
+
+/************* Resume Styles **************/
+
+.resume-content{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+    height: 90vh;
+ padding-top: 10rem !important;
+}
+.resume-content > h3{
+    color: rgb(0, 110, 255);
+    font-size: 4rem;
+}
+
+.resume-desc{
+    width: 50%;
+}
+
+.resume-desc > h3{
+    color: rgb(0, 110, 255);
+    margin-bottom: 1rem;
+}
+
+.resume-desc > p{
+    margin-bottom: 1rem;
+}
+
+.resume-desc > li{
+    margin-left: 1rem;
+}
+
+/************* Contact Styles **************/
+
+.contact-content{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 1.5rem;
+     padding-top: 10rem !important;
+
+}
+.contact-content > h3{
+    color: rgb(0, 110, 255);
+    font-size: 4rem;
+}
+
+.contact-desc{
+    width: 50%;
+}
+
+.contact-desc > h3{
+    color: rgb(0, 110, 255);
+    margin-bottom: 1rem;
+}
+
+.contact-desc > p{
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+
+
+input[type=text] {
+  padding:10px;
+  border:0;
+  width: 100%;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+textarea{
+    width: 100%;
+    padding: 10px;
+  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+
+}
+
+.contact-desc > form > button{
+   padding: .7rem 2rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid rgb(0, 110, 255);
+    border-radius: 6px;
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+.contact-desc > form > button:hover{
+  background-color: rgb(0, 110, 255);
+    border: 1px solid rgb(0, 110, 255);
+    color: white;
+}
+
+.footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    background-color: rgb(0, 110, 255);
+}
+
+.footer-content{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.social-media > a{
+    text-decoration: none;
+}
+
+.social-media > a > i{
+    color: white;
+    margin-left: 2rem;
+    font-size: 2rem;
+}
+
+.footer-content > p{
+    margin-top: 1rem;
+}
